@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.erudev.spring.basic_dl.b_bytype.bean.Person">
+        <property name="name" value="erudev" />
+        <property name="age" value="24" />
+    </bean>
+
+    <bean id="mysql" class="com.erudev.spring.basic_di.c_oftype.dao.impl.DemoMySQLDaoImpl"></bean>
+    <bean id="pg" class="com.erudev.spring.basic_di.c_oftype.dao.impl.DemoPgDaoImpl"></bean>
+    <bean id="oracle" class="com.erudev.spring.basic_di.c_oftype.dao.impl.DemoOracleDaoImpl"></bean>
+</beans>

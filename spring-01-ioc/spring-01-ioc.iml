@@ -9,10 +9,13 @@
         <fileset id="fileset2" name="Quickstart Bytype" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/basic_dl/quickstart-bytype.xml</file>
         </fileset>
+        <fileset id="fileset3" name="Quickstart Oftype" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/basic_di/quickstart-oftype.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
